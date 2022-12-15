@@ -1,1 +1,22 @@
 
+on:
+  push:
+    branches:
+      - master
+
+
+
+
+jobs:
+  bulid:
+    run-on: ubuntu-latest
+
+    steps:
+      - name: 'Printing folder contents'
+        run: pwd
+
+
+      - uses: actions/chekout@v3
+
+      - name: 'testing printing'
+        run: echo Mohamed
