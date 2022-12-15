@@ -16,7 +16,7 @@ jobs:
         run: pwd
 
 
-      - uses: actions/chekout@v3
+    
 
       - name: 'testing printing'
         run: echo Mohamed
